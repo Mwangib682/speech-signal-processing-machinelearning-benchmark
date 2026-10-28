@@ -236,3 +236,6 @@ __marimo__/
 
 # Local IDE settings
 .idea/
+
+# Locally generated feature-selection reports
+/data/feature_selection_results/
