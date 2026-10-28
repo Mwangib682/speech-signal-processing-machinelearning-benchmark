@@ -1,0 +1,37 @@
+algorithm,parameters,mean_cv_macro_f1,std_cv_macro_f1,rank
+SVM (RBF),"{""classifier__C"": 0.5, ""classifier__gamma"": ""scale""}",0.9825633720676116,0.007357553439910424,4
+SVM (RBF),"{""classifier__C"": 0.5, ""classifier__gamma"": 0.01}",0.9763519950981641,0.006542227271112399,6
+SVM (RBF),"{""classifier__C"": 1.0, ""classifier__gamma"": ""scale""}",0.9858958588238735,0.006047137044842933,1
+SVM (RBF),"{""classifier__C"": 1.0, ""classifier__gamma"": 0.01}",0.9821300481323562,0.005479876580487338,5
+SVM (RBF),"{""classifier__C"": 5.0, ""classifier__gamma"": ""scale""}",0.9842362769155816,0.006584187940359562,3
+SVM (RBF),"{""classifier__C"": 5.0, ""classifier__gamma"": 0.01}",0.9854549947648665,0.006524038200934141,2
+Random Forest,"{""classifier__max_depth"": null, ""classifier__n_estimators"": 150}",0.9740810247472561,0.010453967912680967,1
+Random Forest,"{""classifier__max_depth"": null, ""classifier__n_estimators"": 300}",0.973734134037177,0.00960495049989257,2
+Random Forest,"{""classifier__max_depth"": 18, ""classifier__n_estimators"": 150}",0.9728299145217889,0.01040725235913238,4
+Random Forest,"{""classifier__max_depth"": 18, ""classifier__n_estimators"": 300}",0.9737255881880182,0.010050391102647247,3
+K-Nearest Neighbors,"{""classifier__n_neighbors"": 3, ""classifier__weights"": ""uniform""}",0.9767372463522845,0.007996686440049925,5
+K-Nearest Neighbors,"{""classifier__n_neighbors"": 3, ""classifier__weights"": ""distance""}",0.9804491373025804,0.0069987032474503495,1
+K-Nearest Neighbors,"{""classifier__n_neighbors"": 5, ""classifier__weights"": ""uniform""}",0.9775376444772534,0.006864665123063611,4
+K-Nearest Neighbors,"{""classifier__n_neighbors"": 5, ""classifier__weights"": ""distance""}",0.9796211645647442,0.006197771211586305,2
+K-Nearest Neighbors,"{""classifier__n_neighbors"": 9, ""classifier__weights"": ""uniform""}",0.9762633525393707,0.006226408894020195,6
+K-Nearest Neighbors,"{""classifier__n_neighbors"": 9, ""classifier__weights"": ""distance""}",0.9783560591806906,0.006333793477162954,3
+Neural Network (MLP),"{""classifier__alpha"": 0.0001, ""classifier__hidden_layer_sizes"": [64]}",0.9664348167325931,0.003559886995157498,3
+Neural Network (MLP),"{""classifier__alpha"": 0.0001, ""classifier__hidden_layer_sizes"": [128, 64]}",0.9704588115665264,0.009419219261193493,2
+Neural Network (MLP),"{""classifier__alpha"": 0.01, ""classifier__hidden_layer_sizes"": [64]}",0.9655928077981086,0.003578087621030428,4
+Neural Network (MLP),"{""classifier__alpha"": 0.01, ""classifier__hidden_layer_sizes"": [128, 64]}",0.9704629742191078,0.00942394888782492,1
+Logistic Regression,"{""classifier__C"": 0.1}",0.9625775912230694,0.008614450632610956,2
+Logistic Regression,"{""classifier__C"": 1.0}",0.9641917038151311,0.008117889166799262,1
+Logistic Regression,"{""classifier__C"": 10.0}",0.9541813845693283,0.009604058553847,3
+Decision Tree,"{""classifier__max_depth"": 8, ""classifier__min_samples_leaf"": 1}",0.6870366038109791,0.017334639698124734,6
+Decision Tree,"{""classifier__max_depth"": 8, ""classifier__min_samples_leaf"": 3}",0.6878845315956127,0.01595324859552764,5
+Decision Tree,"{""classifier__max_depth"": 16, ""classifier__min_samples_leaf"": 1}",0.7673990527046353,0.02297353915513532,1
+Decision Tree,"{""classifier__max_depth"": 16, ""classifier__min_samples_leaf"": 3}",0.7481099342465842,0.016766396882722245,3
+Decision Tree,"{""classifier__max_depth"": null, ""classifier__min_samples_leaf"": 1}",0.7607978311546243,0.018786857127939902,2
+Decision Tree,"{""classifier__max_depth"": null, ""classifier__min_samples_leaf"": 3}",0.7481099342465842,0.016766396882722245,3
+Gradient Boosting,"{""classifier__learning_rate"": 0.05, ""classifier__max_iter"": 100, ""classifier__max_leaf_nodes"": 15}",0.968411704119682,0.008506096980902763,4
+Gradient Boosting,"{""classifier__learning_rate"": 0.05, ""classifier__max_iter"": 200, ""classifier__max_leaf_nodes"": 15}",0.9738163613157542,0.009396807346760148,2
+Gradient Boosting,"{""classifier__learning_rate"": 0.1, ""classifier__max_iter"": 100, ""classifier__max_leaf_nodes"": 15}",0.9725500591122387,0.008893487618688562,3
+Gradient Boosting,"{""classifier__learning_rate"": 0.1, ""classifier__max_iter"": 200, ""classifier__max_leaf_nodes"": 15}",0.9741958896792537,0.008822537369755008,1
+Gaussian Naive Bayes,"{""classifier__var_smoothing"": 1e-09}",0.8719820574396835,0.011545593412304813,1
+Gaussian Naive Bayes,"{""classifier__var_smoothing"": 1e-07}",0.8719820574396835,0.011545593412304813,1
+Gaussian Naive Bayes,"{""classifier__var_smoothing"": 1e-05}",0.8719820574396835,0.011545593412304813,1
