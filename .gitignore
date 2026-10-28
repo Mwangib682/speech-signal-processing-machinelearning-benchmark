@@ -218,3 +218,21 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Speech processing datasets (keep recordings local)
+/data/raw/
+/data/processed/
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.m4a
+
+# Local generated feature tables and serialized models
+/data/*.csv
+*.joblib
+*.pkl
+*.pickle
+
+# Local IDE settings
+.idea/
