@@ -1,0 +1,21 @@
+Method: L1 Logistic Regression
+Selected features: 45
+Accuracy: 0.98667
+Macro F1: 0.98667
+
+              precision    recall  f1-score   support
+
+           0       1.00      0.98      0.99        60
+           1       0.98      1.00      0.99        60
+           2       1.00      1.00      1.00        60
+           3       0.98      0.97      0.97        60
+           4       1.00      1.00      1.00        60
+           5       1.00      0.98      0.99        60
+           6       0.97      1.00      0.98        60
+           7       0.98      0.98      0.98        60
+           8       0.98      0.98      0.98        60
+           9       0.97      0.97      0.97        60
+
+    accuracy                           0.99       600
+   macro avg       0.99      0.99      0.99       600
+weighted avg       0.99      0.99      0.99       600
