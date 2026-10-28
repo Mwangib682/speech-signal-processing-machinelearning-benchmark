@@ -1,0 +1,36 @@
+STAGE 4: AUDIO CLASSIFICATION — EXPERIMENT SUMMARY
+=======================================================
+Dataset: data/feature_selection_results/selected_feature_dataset.csv
+Samples: 3000 | Classes: 10 | Features: 45
+Training: 2400 | Existing test: 600
+Cross-validation: 5-fold stratified, seed 42
+Model selection criterion: highest TRAINING CV macro F1
+CV-selected winner: SVM (RBF)
+Winning training CV macro F1: 0.985896
+Existing test accuracy: 0.986667
+Existing test macro precision: 0.986773
+Existing test macro recall: 0.986667
+Existing test macro F1: 0.986666
+Best parameters: {"classifier__C": 1.0, "classifier__gamma": "scale"}
+Total experiment time: 235.5 seconds
+
+METHODOLOGICAL LIMITATIONS
+1. Feature selection occurred on the Stage-3 full training partition,
+   before Stage-4 CV. Stage-4 CV is not fully nested and can be optimistic.
+2. The test partition was already examined in Stage 3; test comparisons
+   are descriptive, not a fresh independent confirmatory evaluation.
+3. No speaker IDs are provided, so speaker-independent splitting
+   cannot be guaranteed. If needed, collect speaker IDs and use groups.
+4. The bundle expects the exact listed feature names and feature
+   extraction conventions; it does not accept raw audio directly.
+
+MODEL COMPARISON
+           algorithm  cv_macro_f1_mean  cv_macro_f1_std  test_accuracy  test_macro_precision  test_macro_recall  test_macro_f1  training_and_tuning_seconds  test_prediction_seconds                                                                                   best_parameters
+           SVM (RBF)          0.985896         0.006047       0.986667              0.986773           0.986667       0.986666                    10.851500                 0.218339                                              {"classifier__C": 1.0, "classifier__gamma": "scale"}
+ K-Nearest Neighbors          0.980449         0.006999       0.983333              0.983517           0.983333       0.983345                     1.375373                 0.014962                                 {"classifier__n_neighbors": 3, "classifier__weights": "distance"}
+   Gradient Boosting          0.974196         0.008823       0.978333              0.978494           0.978333       0.978332                   120.809878                 0.069287 {"classifier__learning_rate": 0.1, "classifier__max_iter": 200, "classifier__max_leaf_nodes": 15}
+       Random Forest          0.974081         0.010454       0.976667              0.977047           0.976667       0.976631                    62.533813                 0.039532                                  {"classifier__max_depth": null, "classifier__n_estimators": 150}
+Neural Network (MLP)          0.970463         0.009424       0.955000              0.956070           0.955000       0.955049                    25.555305                 0.005145                          {"classifier__alpha": 0.01, "classifier__hidden_layer_sizes": [128, 64]}
+ Logistic Regression          0.964192         0.008118       0.971667              0.971956           0.971667       0.971634                     1.670547                 0.003674                                                                            {"classifier__C": 1.0}
+Gaussian Naive Bayes          0.871982         0.011546       0.900000              0.901297           0.900000       0.899765                     0.501002                 0.005334                                                              {"classifier__var_smoothing": 1e-09}
+       Decision Tree          0.767399         0.022974       0.798333              0.797992           0.798333       0.796552                     4.497164                 0.004363                                  {"classifier__max_depth": 16, "classifier__min_samples_leaf": 1}
