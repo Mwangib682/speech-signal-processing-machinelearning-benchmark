@@ -1,6 +1,6 @@
 # Comparative Evaluation of Feature Selection and Machine Learning Algorithms for Multiclass Speech Classification
 
-A reproducible-code research portfolio comparing **seven feature-selection methods** and **eight classical machine-learning classifiers** for a balanced **10-class speech classification** task. The original experiment used **3,000 recordings** (300 per class, labels 0–9).
+A research code and experimental-results portfolio comparing **seven feature-selection methods** and **eight classical machine-learning classifiers** for a balanced **10-class speech classification** task. The original experiment used **3,000 recordings** (300 per class, labels 0–9).
 
 > **Research status:** The source code and selected original experiment reports are published. The repository-ready scripts have not yet been independently rerun end-to-end. Reported scores are from the original experiment, and the existing test partition is **not** a fresh independent confirmatory test.
 
@@ -58,7 +58,7 @@ requirements.txt             # Python package dependencies
 
 See [feature-selection results](results/feature_selection/feature_selection_results.csv), [feature importance scores](results/feature_selection/feature_importance_scores.csv), [selected feature names by method](results/feature_selection/selected_features.csv), [classification tuning results](results/classification/hyperparameter_tuning_results.csv), and [per-class classifier report](results/classification/classification_report.csv).
 
-## How to run locally
+## Running the published pipeline locally
 
 Use Python in a virtual environment. Install the dependencies:
 
@@ -79,14 +79,14 @@ Outputs are generated locally under `data/processed/`, `data/voice_features.csv`
 
 **Note:** Stage 3 uses computationally intensive custom mRMR and Genetic Algorithm searches. Runtime and exact results can depend on package versions and hardware. This README describes the published workflow, not a verified fresh rerun.
 
-## Evaluation design and limitations
+## Evaluation design, integrity, and limitations
 
 - The original split is stratified **80% training (2,400) / 20% test (600)** with random seed 42.
 - Feature selection is fitted using training data, but Stage 4 performs cross-validation **after** selecting features using the full Stage 3 training partition. Consequently, Stage 4 CV estimates are **not nested** and may be optimistic.
 - Stage 3 already evaluated its winning selection method on the same test partition later used by Stage 4. Stage 4 test metrics are therefore **descriptive**, not an independent confirmatory estimate.
 - No verified speaker IDs are available. Recordings from the same speaker may appear across train and test; speaker-independent generalization **cannot be claimed**.
 - Stage 4 reconstructs the split using the same seed and row order. Reordering or filtering the Stage 3 exported dataset before Stage 4 would break split consistency.
-- The original audio dataset is not redistributed here. Its source and license require verification before any public release.
+- The original audio dataset is not redistributed here. Its source, provenance, and license require verification before any public release. Reuse of any third-party recordings or feature-level data must follow their applicable permissions.
 - The reported scores should not be interpreted as deployment performance or generalization to unseen speakers, microphones, or recording environments.
 
 ## Future work
@@ -95,4 +95,4 @@ Evaluate speaker/group-disjoint splits where speaker metadata exists, perform fu
 
 ## Research outputs
 
-This repository provides code and experimental evidence for an academic comparative study. If reusing the results, cite the repository and explicitly retain the evaluation limitations above.
+This repository documents an academic comparative experiment and provides its implementation scripts and selected original reports. The reported results have not been independently reproduced from this published repository. If reusing the results, cite the repository and explicitly retain the evaluation limitations above.
