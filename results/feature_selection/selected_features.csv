@@ -1,0 +1,316 @@
+method,feature,best_k
+ANOVA F-Test,mfcc_2_mean,45
+ANOVA F-Test,mfcc_3_mean,45
+ANOVA F-Test,mfcc_3_std,45
+ANOVA F-Test,mfcc_4_mean,45
+ANOVA F-Test,mfcc_4_std,45
+ANOVA F-Test,mfcc_5_mean,45
+ANOVA F-Test,mfcc_5_std,45
+ANOVA F-Test,mfcc_6_mean,45
+ANOVA F-Test,mfcc_6_std,45
+ANOVA F-Test,mfcc_7_std,45
+ANOVA F-Test,mfcc_8_std,45
+ANOVA F-Test,mfcc_10_mean,45
+ANOVA F-Test,mfcc_11_std,45
+ANOVA F-Test,mfcc_13_mean,45
+ANOVA F-Test,delta_3_mean,45
+ANOVA F-Test,delta_3_std,45
+ANOVA F-Test,delta_4_mean,45
+ANOVA F-Test,delta_4_std,45
+ANOVA F-Test,delta_5_mean,45
+ANOVA F-Test,delta_5_std,45
+ANOVA F-Test,delta_6_std,45
+ANOVA F-Test,delta_8_mean,45
+ANOVA F-Test,delta_9_std,45
+ANOVA F-Test,delta_10_std,45
+ANOVA F-Test,delta_11_std,45
+ANOVA F-Test,delta_12_mean,45
+ANOVA F-Test,delta2_1_std,45
+ANOVA F-Test,delta2_2_std,45
+ANOVA F-Test,delta2_3_std,45
+ANOVA F-Test,delta2_4_std,45
+ANOVA F-Test,delta2_5_mean,45
+ANOVA F-Test,delta2_9_std,45
+ANOVA F-Test,rms_mean,45
+ANOVA F-Test,rms_std,45
+ANOVA F-Test,zcr_mean,45
+ANOVA F-Test,zcr_std,45
+ANOVA F-Test,centroid_mean,45
+ANOVA F-Test,centroid_std,45
+ANOVA F-Test,bandwidth_mean,45
+ANOVA F-Test,bandwidth_std,45
+ANOVA F-Test,rolloff_mean,45
+ANOVA F-Test,rolloff_std,45
+ANOVA F-Test,flux_mean,45
+ANOVA F-Test,f0_mean,45
+ANOVA F-Test,f0_std,45
+Chi-Square,mfcc_1_std,45
+Chi-Square,mfcc_2_mean,45
+Chi-Square,mfcc_3_mean,45
+Chi-Square,mfcc_3_std,45
+Chi-Square,mfcc_4_mean,45
+Chi-Square,mfcc_4_std,45
+Chi-Square,mfcc_5_mean,45
+Chi-Square,mfcc_5_std,45
+Chi-Square,mfcc_6_mean,45
+Chi-Square,mfcc_6_std,45
+Chi-Square,mfcc_7_std,45
+Chi-Square,mfcc_8_std,45
+Chi-Square,mfcc_9_std,45
+Chi-Square,mfcc_10_mean,45
+Chi-Square,mfcc_10_std,45
+Chi-Square,mfcc_11_std,45
+Chi-Square,mfcc_12_mean,45
+Chi-Square,mfcc_12_std,45
+Chi-Square,mfcc_13_mean,45
+Chi-Square,delta_1_std,45
+Chi-Square,delta_3_mean,45
+Chi-Square,delta_3_std,45
+Chi-Square,delta_4_std,45
+Chi-Square,delta_5_std,45
+Chi-Square,delta_6_std,45
+Chi-Square,delta_9_std,45
+Chi-Square,delta_10_std,45
+Chi-Square,delta_11_std,45
+Chi-Square,delta2_1_std,45
+Chi-Square,delta2_2_std,45
+Chi-Square,delta2_4_std,45
+Chi-Square,delta2_9_std,45
+Chi-Square,rms_mean,45
+Chi-Square,rms_std,45
+Chi-Square,zcr_mean,45
+Chi-Square,zcr_std,45
+Chi-Square,centroid_mean,45
+Chi-Square,centroid_std,45
+Chi-Square,bandwidth_mean,45
+Chi-Square,bandwidth_std,45
+Chi-Square,rolloff_mean,45
+Chi-Square,rolloff_std,45
+Chi-Square,flux_mean,45
+Chi-Square,f0_mean,45
+Chi-Square,f0_std,45
+Mutual Information,mfcc_1_std,45
+Mutual Information,mfcc_2_mean,45
+Mutual Information,mfcc_2_std,45
+Mutual Information,mfcc_3_mean,45
+Mutual Information,mfcc_3_std,45
+Mutual Information,mfcc_4_mean,45
+Mutual Information,mfcc_4_std,45
+Mutual Information,mfcc_5_mean,45
+Mutual Information,mfcc_5_std,45
+Mutual Information,mfcc_6_mean,45
+Mutual Information,mfcc_6_std,45
+Mutual Information,mfcc_7_std,45
+Mutual Information,mfcc_9_mean,45
+Mutual Information,mfcc_10_mean,45
+Mutual Information,mfcc_11_mean,45
+Mutual Information,mfcc_11_std,45
+Mutual Information,mfcc_12_mean,45
+Mutual Information,mfcc_13_mean,45
+Mutual Information,delta_1_std,45
+Mutual Information,delta_2_mean,45
+Mutual Information,delta_3_mean,45
+Mutual Information,delta_3_std,45
+Mutual Information,delta_4_mean,45
+Mutual Information,delta_4_std,45
+Mutual Information,delta_5_mean,45
+Mutual Information,delta_5_std,45
+Mutual Information,delta_6_mean,45
+Mutual Information,delta_6_std,45
+Mutual Information,delta_7_std,45
+Mutual Information,delta_8_mean,45
+Mutual Information,delta_9_std,45
+Mutual Information,delta2_2_std,45
+Mutual Information,rms_mean,45
+Mutual Information,rms_std,45
+Mutual Information,zcr_mean,45
+Mutual Information,zcr_std,45
+Mutual Information,centroid_mean,45
+Mutual Information,centroid_std,45
+Mutual Information,bandwidth_mean,45
+Mutual Information,bandwidth_std,45
+Mutual Information,rolloff_mean,45
+Mutual Information,rolloff_std,45
+Mutual Information,flux_mean,45
+Mutual Information,f0_mean,45
+Mutual Information,f0_std,45
+mRMR,mfcc_2_mean,45
+mRMR,mfcc_3_mean,45
+mRMR,mfcc_3_std,45
+mRMR,mfcc_4_mean,45
+mRMR,mfcc_4_std,45
+mRMR,mfcc_5_mean,45
+mRMR,mfcc_5_std,45
+mRMR,mfcc_6_mean,45
+mRMR,mfcc_6_std,45
+mRMR,mfcc_7_std,45
+mRMR,mfcc_9_mean,45
+mRMR,mfcc_10_mean,45
+mRMR,mfcc_11_mean,45
+mRMR,mfcc_11_std,45
+mRMR,mfcc_13_mean,45
+mRMR,delta_1_std,45
+mRMR,delta_2_mean,45
+mRMR,delta_3_mean,45
+mRMR,delta_3_std,45
+mRMR,delta_4_mean,45
+mRMR,delta_4_std,45
+mRMR,delta_5_mean,45
+mRMR,delta_5_std,45
+mRMR,delta_6_mean,45
+mRMR,delta_6_std,45
+mRMR,delta_7_std,45
+mRMR,delta_8_mean,45
+mRMR,delta_9_std,45
+mRMR,delta_10_std,45
+mRMR,delta2_2_std,45
+mRMR,delta2_4_mean,45
+mRMR,delta2_9_std,45
+mRMR,rms_mean,45
+mRMR,rms_std,45
+mRMR,zcr_mean,45
+mRMR,zcr_std,45
+mRMR,centroid_mean,45
+mRMR,centroid_std,45
+mRMR,bandwidth_mean,45
+mRMR,bandwidth_std,45
+mRMR,rolloff_mean,45
+mRMR,rolloff_std,45
+mRMR,flux_mean,45
+mRMR,f0_mean,45
+mRMR,f0_std,45
+RFE,mfcc_1_mean,45
+RFE,mfcc_1_std,45
+RFE,mfcc_2_mean,45
+RFE,mfcc_2_std,45
+RFE,mfcc_3_mean,45
+RFE,mfcc_3_std,45
+RFE,mfcc_4_mean,45
+RFE,mfcc_4_std,45
+RFE,mfcc_5_mean,45
+RFE,mfcc_5_std,45
+RFE,mfcc_6_mean,45
+RFE,mfcc_6_std,45
+RFE,mfcc_7_mean,45
+RFE,mfcc_7_std,45
+RFE,mfcc_8_mean,45
+RFE,mfcc_8_std,45
+RFE,mfcc_9_mean,45
+RFE,mfcc_10_mean,45
+RFE,mfcc_11_mean,45
+RFE,mfcc_12_mean,45
+RFE,mfcc_12_std,45
+RFE,mfcc_13_mean,45
+RFE,delta_1_mean,45
+RFE,delta_1_std,45
+RFE,delta_2_mean,45
+RFE,delta_2_std,45
+RFE,delta_3_mean,45
+RFE,delta_3_std,45
+RFE,delta_4_std,45
+RFE,delta_5_std,45
+RFE,delta_6_std,45
+RFE,delta2_1_mean,45
+RFE,delta2_1_std,45
+RFE,delta2_2_std,45
+RFE,rms_mean,45
+RFE,rms_std,45
+RFE,zcr_mean,45
+RFE,zcr_std,45
+RFE,centroid_mean,45
+RFE,centroid_std,45
+RFE,bandwidth_mean,45
+RFE,rolloff_mean,45
+RFE,rolloff_std,45
+RFE,flux_mean,45
+RFE,voiced_fraction,45
+Genetic Algorithm,mfcc_1_std,45
+Genetic Algorithm,mfcc_2_mean,45
+Genetic Algorithm,mfcc_2_std,45
+Genetic Algorithm,mfcc_3_mean,45
+Genetic Algorithm,mfcc_4_mean,45
+Genetic Algorithm,mfcc_4_std,45
+Genetic Algorithm,mfcc_5_mean,45
+Genetic Algorithm,mfcc_5_std,45
+Genetic Algorithm,mfcc_6_mean,45
+Genetic Algorithm,mfcc_6_std,45
+Genetic Algorithm,mfcc_8_mean,45
+Genetic Algorithm,mfcc_8_std,45
+Genetic Algorithm,mfcc_9_mean,45
+Genetic Algorithm,mfcc_10_mean,45
+Genetic Algorithm,mfcc_11_mean,45
+Genetic Algorithm,mfcc_12_mean,45
+Genetic Algorithm,mfcc_13_mean,45
+Genetic Algorithm,delta_1_std,45
+Genetic Algorithm,delta_2_mean,45
+Genetic Algorithm,delta_3_mean,45
+Genetic Algorithm,delta_3_std,45
+Genetic Algorithm,delta_4_std,45
+Genetic Algorithm,delta_5_mean,45
+Genetic Algorithm,delta_5_std,45
+Genetic Algorithm,delta_6_std,45
+Genetic Algorithm,delta_7_std,45
+Genetic Algorithm,delta_8_mean,45
+Genetic Algorithm,delta_9_std,45
+Genetic Algorithm,delta_10_std,45
+Genetic Algorithm,delta_12_mean,45
+Genetic Algorithm,delta2_1_std,45
+Genetic Algorithm,delta2_2_std,45
+Genetic Algorithm,delta2_3_std,45
+Genetic Algorithm,delta2_4_std,45
+Genetic Algorithm,delta2_7_std,45
+Genetic Algorithm,rms_mean,45
+Genetic Algorithm,rms_std,45
+Genetic Algorithm,zcr_mean,45
+Genetic Algorithm,zcr_std,45
+Genetic Algorithm,centroid_mean,45
+Genetic Algorithm,bandwidth_std,45
+Genetic Algorithm,rolloff_std,45
+Genetic Algorithm,flux_mean,45
+Genetic Algorithm,f0_mean,45
+Genetic Algorithm,f0_std,45
+L1 Logistic Regression,mfcc_1_std,45
+L1 Logistic Regression,mfcc_2_std,45
+L1 Logistic Regression,mfcc_3_mean,45
+L1 Logistic Regression,mfcc_3_std,45
+L1 Logistic Regression,mfcc_4_mean,45
+L1 Logistic Regression,mfcc_4_std,45
+L1 Logistic Regression,mfcc_5_mean,45
+L1 Logistic Regression,mfcc_5_std,45
+L1 Logistic Regression,mfcc_6_mean,45
+L1 Logistic Regression,mfcc_6_std,45
+L1 Logistic Regression,mfcc_7_mean,45
+L1 Logistic Regression,mfcc_7_std,45
+L1 Logistic Regression,mfcc_9_std,45
+L1 Logistic Regression,mfcc_10_mean,45
+L1 Logistic Regression,mfcc_11_std,45
+L1 Logistic Regression,mfcc_12_mean,45
+L1 Logistic Regression,mfcc_12_std,45
+L1 Logistic Regression,mfcc_13_mean,45
+L1 Logistic Regression,delta_1_std,45
+L1 Logistic Regression,delta_3_mean,45
+L1 Logistic Regression,delta_4_mean,45
+L1 Logistic Regression,delta_4_std,45
+L1 Logistic Regression,delta_5_mean,45
+L1 Logistic Regression,delta_5_std,45
+L1 Logistic Regression,delta_6_mean,45
+L1 Logistic Regression,delta_6_std,45
+L1 Logistic Regression,delta_7_mean,45
+L1 Logistic Regression,delta_8_mean,45
+L1 Logistic Regression,delta_11_mean,45
+L1 Logistic Regression,delta2_1_mean,45
+L1 Logistic Regression,delta2_1_std,45
+L1 Logistic Regression,delta2_2_std,45
+L1 Logistic Regression,delta2_3_std,45
+L1 Logistic Regression,delta2_7_std,45
+L1 Logistic Regression,delta2_9_std,45
+L1 Logistic Regression,rms_mean,45
+L1 Logistic Regression,rms_std,45
+L1 Logistic Regression,zcr_mean,45
+L1 Logistic Regression,centroid_std,45
+L1 Logistic Regression,bandwidth_mean,45
+L1 Logistic Regression,bandwidth_std,45
+L1 Logistic Regression,rolloff_std,45
+L1 Logistic Regression,flux_mean,45
+L1 Logistic Regression,flux_std,45
+L1 Logistic Regression,f0_std,45
