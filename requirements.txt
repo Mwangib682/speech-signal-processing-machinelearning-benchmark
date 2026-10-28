@@ -1,0 +1,11 @@
+# Dependencies for the four-stage audio ML benchmark
+# Exact package versions used in the original experiment were not fully recorded.
+numpy
+pandas
+scipy
+librosa
+soundfile
+noisereduce
+scikit-learn
+matplotlib
+joblib
