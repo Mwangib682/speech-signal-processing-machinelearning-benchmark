@@ -239,3 +239,6 @@ __marimo__/
 
 # Locally generated feature-selection reports
 /data/feature_selection_results/
+
+# Locally generated classification reports and trained models
+/data/classification_results/
